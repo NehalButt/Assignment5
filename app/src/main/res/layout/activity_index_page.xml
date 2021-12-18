@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexPage"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_baseline_view_headline_24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Go"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#0090fc"
+        android:textSize="30dp"
+        android:layout_marginLeft="75dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Travel"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:src="@drawable/bluecolr"
+    android:layout_marginTop="18dp"
+    android:layout_marginLeft="80dp"/>
+</LinearLayout>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        android:background="#EAE3E3"
+        android:iconifiedByDefault="true"
+        android:isScrollContainer="true"
+        android:orientation="vertical"
+        android:pointerIcon="none">
+    </SearchView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            android:text="Popular Places"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="#5b646a"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/abril_fatface"
+            android:layout_marginLeft="160dp"
+            android:text="View All"
+            android:textColor="#0090fc"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="200dp"
+            android:src="@drawable/i1"
+        />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="200dp"
+            android:src="@drawable/i2"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/i3"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/i4"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore now"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#111111"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        />
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".third_page"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/archivo_black"
+            android:text="Most Luxurious And Peaceful Place"
+            android:textColor="#222"
+            android:textSize="25sp" />
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_baseline_align_horizontal_right_24"
+       android:layout_marginTop="5dp"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:src="@drawable/i1"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fivestar"
+        android:layout_marginTop="-65dp"/>
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="About Place"
+        android:textColor="#222"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Special facilities"
+        android:textColor="#222"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_local_parking_24"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free Parking"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_pie_chart_24"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 Hours"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_wifi_24"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free Wifi"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/i1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Our Packages"
+        android:textColor="#222"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adult"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="70dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/adult"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="-40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Child"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/child"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="-40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Night"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/night"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="-40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/room"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="-40dp"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="856.00$                                 Booking"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#008ced"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        android:drawableRight="@drawable/ic_baseline_arrow_right_alt_24"
+        android:paddingRight="15dp"
+        />
+</LinearLayout>
